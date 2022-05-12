@@ -1,9 +1,10 @@
 import React from "react";
+import ProductComponents from "./ProductComponents";
 
 const ProductListing = () => {
   return (
-    <div>
-      <h1>Product Listing</h1>
+    <div className="ui grid container">
+      <ProductComponents />
     </div>
   );
 };
